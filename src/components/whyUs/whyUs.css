@@ -1,0 +1,20 @@
+.color{
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+.white-box{
+    height: 300px;
+    background-color:white;
+    position: relative;
+    top:240px;
+    right: 500px;
+    z-index: 2;
+    padding: 10px  120px;
+}
+.white-image img{
+    width: 280px;
+    height: 200px;
+    position: absolute;
+    left: 530px;
+    top: 350px;
+    z-index: 3;
+}

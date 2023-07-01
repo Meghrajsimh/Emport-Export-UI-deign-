@@ -1,0 +1,91 @@
+.commentContainer {
+  width: 100%;
+
+  height: 425px;
+}
+.commentContainer1 {
+  width: 80%;
+  height: 350px;
+  margin: 40px;
+  position: relative;
+  left: 25px;
+}
+.commentTop {
+  display: flex;
+}
+.commentTop img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+}
+.commentName {
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+.commentName h3 {
+  width: 148px;
+  height: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: -15px;
+}
+.commentContainer p {
+  width: 180px;
+  height: 24px;
+
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.notation {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  position:relative;
+  top: 19px;
+  left: 180px;
+  color: black;
+}
+.notation h1{
+    position: relative;
+    left: -17px;
+    bottom: 68px;
+    font-size: 70px;
+    font-weight: 900;
+    rotate: 180deg;
+}
+.commentInfo p{
+    width: 456px;
+    height: 120px;
+    font-family: 'Krub';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.star{
+    position: relative;
+    top: 45px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    color: #FDAF3B;
+    padding: 0 5px;
+}

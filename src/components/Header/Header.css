@@ -1,0 +1,142 @@
+.header{
+    width: 100%;
+    height: 33vmin;
+    background-color: #091242;
+}
+.headerIcons{
+    width: 100%;
+}
+.headerIcons-left{
+    position: relative;
+    right: 300px;
+    top:50px;
+}
+.circle{
+    box-sizing: border-box;
+
+    width: 63px;
+    height: 63px;
+    left: 58.87px;
+    top: 2.5px;
+  
+    background: #111c55;
+    border: 1px solid #273270;
+}
+.headerIcons-right{
+    width: fit-content;
+    position: relative;
+    left: 1250px;
+}
+.headerIcons-right:hover{
+    cursor: pointer;
+}
+.companyName{
+    width: 250px;
+    height: 40px;
+    position: relative;
+    top:60px;
+    left: 130px;
+}
+.square{
+    position: relative;
+    bottom: 26px;
+    right: 80px;
+}
+.lastHeader{
+    display: flex;
+}
+.navBar{
+    width: fit-content;
+    position: relative;
+    top: 52px;
+    left: 146px;
+}
+.navBar li:hover{
+    cursor: pointer;
+    color: rgb(180, 160, 133);
+}
+.searchBar{
+    display: flex;
+    box-sizing: border-box;
+    width: 260px;
+    height: 66px;
+    position: relative;
+    left: 750px;
+    bottom: 55px;
+    border: 1px solid white;
+    border-radius: 40px;
+    gap: 20px;
+}
+.searchBar input{
+    background:transparent;
+    border: none;
+    position: relative;
+    top:7px;
+    left: 30px;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.searchBar ::placeholder{
+    left: 25px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.5);
+}
+.searchIcon{
+    position: relative;
+    top: 6px;
+    left: 15px;
+}
+.searchIcon :hover{
+   cursor: pointer;
+}
+
+.downArro{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+
+.downArro:hover{
+    cursor: pointer;
+}
+.dropdown-menu{
+   width: 100px;
+   position:absolute;
+   top:40px;
+   left: 220px;
+   z-index: 5;
+   display: flex;
+}
+.dropdown-menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 500ms ease;
+}
+.dropdown-menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: 500ms ease;
+}
+.dropdownItem{
+    border: 1px solid white;
+    background-color: #091242;
+    width: 100px;
+    text-align: center;
+    padding: 5px ;
+    position: relative;
+    right: 30px;
+    padding: 5px;
+}
+.menu-trigger{
+    display: flex;
+}

@@ -1,0 +1,306 @@
+.upFooter {
+  background-image: url("../../images/aerial-view-cargo-ship-cargo-container-harbor.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vmin;
+  display: flex;
+}
+li {
+  list-style: none;
+  color: white;
+}
+
+.midFooter ul {
+  margin: 0;
+  display: flex;
+  background-color:  #1F2A69  ;
+  height: 11vmin;
+}
+.ul {
+  padding-left: 300px;
+}
+.ul li {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  padding: 30px;
+  padding-top: 41px;
+}
+
+#li1 {
+  background-color: #091242;
+  position: relative;
+  right: 100px;
+  width: 300px;
+}
+#li1 h3 {
+  display: flex;
+  width: 260px;
+  position: relative;
+  bottom: 48px;
+  left: 45px;
+}
+#li2 {
+  position: relative;
+  bottom: 15px;
+  right: 45px;
+}
+#li3 {
+  position: relative;
+  bottom: 15px;
+  right: 30px;
+}
+#li4 {
+  position: relative;
+  bottom: 15px;
+  left: 30px;
+}
+#square1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 39px;
+  top: 31px;
+  background: #ffb82b;
+  transform: rotate(-40deg);
+}
+#square2 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 57px;
+  top: 32px;
+  background: #ffb82b;
+}
+#square3 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 57px;
+  top: 46px;
+  background: #ffb82b;
+}
+#square4 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 42px;
+  top: 46px;
+  background: #ffb82b;
+}
+.lastFooter {
+  background-color: #091242;
+  height: 52vmin;
+  width: 100%;
+  display: flex;
+}
+.rigtLastFooter {
+  margin: 0;
+  position: relative;
+  left: 130px;
+  width: 350px;
+}
+.preagraph {
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+.rigtLastFooter p {
+  margin: 0;
+  color: white;
+  font-family: "Krub", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 151.52%;
+}
+.midLastFooter {
+  width: 150px;
+  display: flex;
+  position: relative;
+  left: 240px;
+  top: 30px;
+}
+
+.midLastFooter1 li {
+  width: 150px;
+  font-family: "krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  position: relative;
+  left: 25px;
+  bottom: 15px;
+}
+.midLastFooter2 li {
+  position: relative;
+  bottom: 18px;
+  right: 5px;
+  width: 150px;
+  font-family: "krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+}
+.midLastFooter ul :hover{
+  cursor: pointer;
+  color: #999999;
+  text-decoration-line:underline;
+}
+#enterFooterEmail input {
+  position: relative;
+  left: 515px;
+  top: 45px;
+  width: 300px;
+  height: 60px;
+  background: #091242;
+  border: 1px solid rgb(167, 147, 147);
+  border-radius: 4px;
+  color: white;
+}
+#enterFooterEmail ::placeholder {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  font-family: "League Spartan";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: #999999;
+}
+#footerButton {
+  position:relative;
+  top: 70px;
+  left: 520px;
+  width: 148px;
+  height: 60px;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  border-radius: 4px;
+}
+#footerButton :hover{
+  cursor: pointer;
+}
+.footerMediaicons ul{
+  display: flex;
+  padding: 0;
+  position: relative;
+  top: 15px;
+  left: 610px;
+  
+}
+.footerMediaicons li{
+  margin: 15px;
+  font-size: 22px;
+  position: relative;
+  left: 60px;
+  bottom: 20px;
+}
+.footerMediaicons li:hover{
+   cursor: pointer;
+}
+
+.footerEmail{
+  background-color:#1d2d84 ;
+  height: 60px;
+  width: 60px;
+  min-width: 45px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #F6B426;
+  position: relative;
+  top:80px;
+  left:100px;
+}
+.footerEMail-Info{
+  position: absolute;
+  top:200px;
+  left: 170px;
+}
+.footerEMail-Info h5 {
+   color: white;
+   font-family: 'krub';
+   font-size:12.5px;
+   font-weight: 500;
+   line-height: 19px;
+   margin: 0;
+}
+.footerContact{
+  background-color:#1d2d84 ;
+  height: 60px;
+  width: 60px;
+  min-width: 45px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #F6B426;
+  position: relative;
+  top:100px;
+  left:100px;
+}
+.footerContact-Info{
+  position: absolute;
+  top:280px;
+  left: 170px;
+}
+.footerContact-Info h5{
+  color: white;
+  font-family: 'krub';
+  font-size:12.5px;
+  font-weight: 500;
+  line-height: 19px;
+  margin: 0;
+}
+
+.endFooter{
+  width: 100%;
+  display: flex;
+  height: 9vmin;
+  background-color: #091242;
+  border-top: 1px solid gainsboro;
+}
+.endFooter h5{
+  color: white;
+  font-family: 'Krub';
+  width:fit-content;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 250%;
+  position: relative;
+  top:-10px;
+  left: 250px;
+}
+.endFooter ul{
+  display: flex;
+  position: absolute;
+  left: 890px;
+  padding: 0;
+
+}
+.endFooter li{
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color:  #8388A7;
+  padding: 0 20px;
+}
+.endFooter ul :hover{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
